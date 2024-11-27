@@ -251,10 +251,11 @@ export const socialMedia = [
   {
     id: 2,
     img: "/twit.svg",
+    url: "https://x.com/jibaan98",
   },
   {
     id: 3,
     img: "/link.svg",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/jibraan-seebaruth/",
   },
 ];

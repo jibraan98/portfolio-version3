@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Jibraan, a Next.js Developer based in Mauritius.
+            Hi! I&apos;m Jibraan, a Web Developer based in Mauritius.
           </p>
 
           <a href="#about">
