@@ -25,7 +25,7 @@ const RecentProjects = () => {
 
   useEffect(() => {
     const fetchProjects = async () => {
-      const query = `*[_type == "project"]{
+      const query = `*[_type == "project"] | order(_createdAt desc){
         _id,
         title,
         des,
