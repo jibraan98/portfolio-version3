@@ -15,5 +15,6 @@ Sentry.init({
 
   // uncomment the line below to enable Spotlight (https://spotlightjs.com)
   // spotlight: process.env.NODE_ENV === 'development',
-  
+  integrations: (integrations) =>
+    integrations.filter((integration) => integration.name !== "Undici"),
 });
